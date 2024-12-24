@@ -1,0 +1,133 @@
+#cart{
+  overflow-x: auto; /*scroll left to right*/
+}
+#cart table{
+  padding: 10px 5px;
+  width: 100%;
+  word-break: keep-all;
+  border-collapse: collapse; /* all columns are connected to each other*/
+  table-layout: fixed;
+  white-space: nowrap;
+}
+#cart table thead{
+  border: 1px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+  
+}
+#cart table thead td{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 18px 0;
+  
+}
+#cart table tbody tr td{
+  padding-top: 15px;
+}
+#cart table tbody td{
+  font-size: 16px;
+}
+#cart table tbody .cancel{
+  font-size: 18px;
+}
+#cart table tbody img{
+  width: 25%;
+}   
+
+/* to fix the width of each column in table*/
+#cart table td:nth-child(1){
+  width: 100px;
+  text-align: center;
+}
+#cart table td:nth-child(2){
+  width: 250px;
+  text-align: center;
+}
+#cart table td:nth-child(3){
+  width: 300px;
+  text-align: start;
+  white-space: normal; /* Allow text wrapping */
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(6){
+  width: 150px;
+  text-align: center;
+}
+#cart table td:nth-child(5){
+  width: 60px;
+  text-align: center;
+
+}
+#cart table td:nth-child(5) input{
+  width: 40px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: solid 1px gray;
+  text-align: center;
+}
+
+#bill{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0;
+
+}
+#bill .coupon{
+  width: 50%;
+ padding-top: 10px;
+ outline: none;
+
+}
+#bill .total h2,
+#bill .coupon h2{
+  font-size: 20px;
+
+}
+#bill .coupon input{
+  padding: 8px 30px;
+  width: 40%;
+  height: 2.8rem;
+  border: solid 1px #e2e9e1;
+  border-radius: 4px;
+}
+
+#bill .coupon button,
+#bill .total button{
+  background-color: #088178;
+  color: white;
+}
+#bill .total{
+  width: 40%;
+  border: solid 1px #e2e9e1;
+  padding: 1.5rem;
+  
+}
+#bill .total table
+{
+  word-break: keep-all;
+  border-collapse: collapse; /* all columns are connected to each other*/
+  table-layout: fixed;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+#bill .total table tr td{
+  border: solid 1px #e2e9e1;
+  padding: 10px;
+  
+}
+
+/* to fix the width of each column in table*/
+#bill .total td:nth-child(1){
+  width: 300px;
+  text-align: start;
+}
+#bill .total td:nth-child(2){
+  width: 300px;
+  text-align: start;
+}
+#bill .total tr:last-child{
+  width: 300px;
+  text-align: start;
+  font-weight: 700;
+}

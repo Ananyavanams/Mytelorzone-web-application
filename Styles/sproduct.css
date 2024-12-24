@@ -1,0 +1,73 @@
+
+#single-pro-detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+#single-pro-detail .images-sec{
+  width: 40%;
+  margin-right: 6rem;
+  
+}
+
+.small-pro-imges{
+  
+  display: flex;
+  justify-content: space-between;
+}
+.small-img{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#single-pro-detail .pro-description{
+padding-top: 30px;
+width: 50%;
+}
+.pro-description h4{
+  padding: 40px 0 20px 0;
+}
+.pro-description h2{
+  font-size: 26px;
+
+}
+#size{
+  padding: 0.3rem 2rem;
+  border: 1px solid gray;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+
+}
+.mid-sec{
+  display: flex;
+  margin: 1rem 0rem;
+}
+
+.quantity{
+text-align: center;
+padding: 0.3rem 0.2rem;
+border: 1px solid gray;
+border-radius: 4px;
+width: 50px;
+margin-right: 10px;
+padding-left: 1rem;
+outline: none;
+}
+.mid-sec button{
+  background-color: #088178;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+.list{
+  padding-left: 30px;
+  margin-top: 20px;
+  list-style: disc;
+}
+.list li{
+  margin-bottom: 0.5rem;
+}

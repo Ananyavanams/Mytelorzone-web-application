@@ -1,0 +1,57 @@
+#page-header.about-header{
+  background-image: url('../img/about/banner.png');
+}
+
+#about-head{
+  display: flex;
+  align-items: center;
+}
+#about-head .about-img{
+  width: 50%;
+  height: auto;
+  margin-right: 40px;
+}
+#about-head .about-img img{
+  width: 100%;
+}
+#about-head .about-details{
+  width: 50%;
+}
+.scrolling-text-container {
+  width: 100%;
+  background-color: #ccc;
+  overflow: hidden; /* Hide overflow content */
+  white-space: nowrap; /*content stay in single line */
+ 
+}
+
+.scrolling-text-container p {
+   padding: 0;
+  margin: 0;
+  animation: scroll-left 15s linear infinite;
+  white-space: nowrap;
+  display: inline-block; /* Ensure the text stays on a single line */ 
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(100%); } /* Start off-screen to the right */
+  100% { transform: translateX(-100%); } /* Move off-screen to the left */
+}
+
+#about-app{
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+#about-app .video{
+  margin: 30px auto 0 auto; /*bring video to centre*/
+  width: 70%;
+  height: 100%;
+}
+#about-app .video video{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}

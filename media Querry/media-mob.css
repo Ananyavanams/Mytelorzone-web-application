@@ -1,0 +1,164 @@
+@media  only screen and (max-width:477px) {
+  body {
+    padding-top: 80px; /* Adjust this value based on the height of your navigation bar */
+  }
+h1{
+  font-size: 38px;
+}
+h2{
+  font-size: 32px;
+  
+}
+.section-p1 {
+  padding: 20px 20px;
+}
+#hero {
+  width: 100%;
+  background-position: top 10% right 45%;
+  height: 60vh;
+  padding: 10px 20px;
+}
+#feature {
+  justify-content: space-around;
+}
+#feature .fe-box {
+  width: 150px;
+  margin: 0px 0 15px 0;
+}
+#product1 .pro {
+  width: 100%;
+}
+#banner {
+  height: 40vh;
+}
+#banner h2 {
+  font-size: 25px;
+}
+#banner3 {
+  padding: 0 20px;
+  flex-wrap: wrap;
+  margin-right:20px;
+}
+
+#banner3 .banner-box {
+  min-width: 100%;
+  margin: 5px 10px;
+}
+
+
+#newsletter {
+  padding: 20px 20px;
+  height: 25vh;
+}
+#newsletter .form {
+  width: 100%;
+  padding: 10px 0;
+}
+/* sproduct.html */
+
+#single-pro-detail {
+  flex-direction: column;
+}
+
+#single-pro-detail .images-sec {
+  width: 100%;
+  
+}
+#single-pro-detail .pro-description {
+  padding-top: 30px;
+  width: 100%;
+  text-align:justify
+}
+.pro-description h4 {
+  padding: 20px 0 0px 0;
+}
+.mid-sec {
+  justify-content:flex-start;
+}
+.quantity {
+  padding-left: 0rem;
+}
+.pro-description h2 {
+  font-size: 20px;
+}
+/*blog.css*/
+#blog {
+  padding: 100px 20px 0 20px;
+}
+#blog .blog-box {
+  flex-direction: column;
+  align-items: flex-start;
+}
+#blog .blog-img {
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 30px;
+}
+#blog .blog-details {
+  width: 100%;
+}
+/*about.html*/
+#about-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#about-head .about-img {
+  width: 100%;
+  height: auto;
+  margin-right: 0px;
+}
+#about-head .about-details {
+  width: 100%;
+}
+#about-app .video {
+  margin: 10px auto 0 auto;
+  width: 100%;
+  height: 100%;
+}
+/* contact.html */
+#contact-details {
+  flex-direction: column;
+  align-items: flex-start;
+}
+#contact-details .details {
+  width: 100%
+}
+#contact-details .details h2 {
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 1.5rem;
+}
+#contact-details .map {
+  width: 100%;
+  height: 400px;
+  margin: 20px 0px;
+}
+#form-details form h1 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+#form-details form input, #form-details form textarea {
+  width: 100%;
+}
+/*cart.html*/
+/* to fix the width of each column in table*/
+
+
+#cart table td:nth-child(1){
+  width: 20px;
+  align-items: center;
+}
+#cart table td:nth-child(2){
+  width: 200px;
+}
+#cart table td:nth-child(3){
+  width: 150px;
+ 
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+  width: 100px;
+}
+}

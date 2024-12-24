@@ -1,0 +1,35 @@
+
+#page-header{
+  background-image: url('../img/banner/b1.jpg');
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ padding: 14px;
+  
+}
+#page-header h2,
+#page-header p
+{
+  color: white;
+}
+#pagination{
+  text-align: center;
+
+}
+#pagination a{
+  text-decoration: none;
+  border: solid 1px #088178;
+  padding: 15px 20px;
+  background-color: #088178;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+}
+#product{
+  flex: auto;
+}
+
